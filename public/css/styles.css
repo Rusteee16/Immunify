@@ -1,0 +1,102 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600;800;900;1000&display=swap');
+
+
+.layer1 {
+    background-image: url('/images/title_background1.svg');
+}
+
+.spacer {
+    aspect-ratio: 960/540;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#title{
+  color: #8ECAE6;
+  height: 750px;
+}
+
+
+
+h1{
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 1000;
+}
+
+h2{
+  font-family: 'Nunito', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+p{
+  color: #023047;
+}
+
+nav{
+  color: #8ECAE6;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Nabvigation Bar */
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+/* Feature Section */
+
+#features{
+  font-family: 'Montserrat';
+  background-color: #8ECAE6;;
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+}
+
+.feature-block{
+  padding: 4.3%;
+}
+
+.feature-icons{
+  color: #FB8500;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover{
+  color: #FFB703;
+}
